@@ -19,7 +19,6 @@
 - [Variable Assignment](variables.md#variable-assignment)
 - [Variable Reassignment](variables.md#variable-reassignment)
 
----
 ## Feedback
 
 Feel free to create an [issue](https://github.com/creativetechnologylab/python-for-beginners/issues) if there is something you think should be different about this course.
