@@ -19,6 +19,12 @@ Once the installation is complete, you should now be able to access the Miniforg
 
 ### macOS
 
+Open a terminal and enter the following command:
+
+```
+brew install miniforge
+```
+
 ## Installing VSCode
 ## Many Kinds of Python
 ---
