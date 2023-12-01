@@ -68,8 +68,6 @@ This guide will introduce Python programming using a piece of software called VS
 
 ### Windows
 
-
-
 ### MacOS
 
 ### Additional Setup
@@ -105,7 +103,7 @@ In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output
 - Python is a versatile programming language.
 - To effectively manage diverse Python project requirements, we employ virtual environments.
 - Conda and Mamba facilitate quick creation of virtual environments and library installations.
-- VSCode stands out as a popular editor for Python development.
+- VS Code stands out as a popular editor for Python development.
 - Python can be used in an interactive mode, in notebooks, or in standard Python files.
 
 ---
