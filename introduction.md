@@ -62,7 +62,43 @@ Entering `python --version` should indicate that Python 3.10 is now part of your
 
 ![Miniforge Python Version macOS](./pictures/miniforge-python-version-mac.png)
 
-## Installing VSCode
+## Installing VS Code
+
+This guide will introduce Python programming using a piece of software called VS Code. VS Code is an Intergrated Development Environment (or IDE for short) that 
+
+### Windows
+
+
+
+### MacOS
+
+### Additional Setup
+
+With VS Code installed, we will now need to make it recognise our Conda/Mamba location. To do this, you must first make sure that VS Code has the Python Extension installed. This may be downloaded by following this [link](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+
+Now go into your Settings in VS Code by clicking on the cog icon in the bottom-left and then clicking on Settings.
+
+![Miniforge Python Version macOS](./pictures/vscode-settings-1.png)
+
+Type "Conda" in the search to bring up the option for the Conda path.
+
+![Miniforge Python Version macOS](./pictures/vscode-settings-2.png)
+
+Now you need to give it the path of either your Conda or Mamba installation. Both are fine. The steps to do this will vary depending on your system.
+
+### Windows
+
+![Miniforge Python Version macOS](./pictures/where-conda-windows.png)
+
+Open the Miniforge Prompt and type `where conda` or `where mamba`. Copy and paste the first path into the Conda Path field in the VS Code settings. Close the Settings tab.
+
+### MacOS
+
+![Miniforge Python Version macOS](./pictures/whereis-conda-mac.png)
+
+In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output into the Conda Path field in the VS Code settings. Close the Settings tab.
+
+
 ## Many Kinds of Python
 ## Summary
 
