@@ -43,7 +43,7 @@ For macOS, you can install Miniforge using a script or through Homebrew.
 5. Run the script by entering `./Miniforge3-MacOSX-x86_64.sh` or `./Miniforge3-MacOSX-arm64.sh` in the terminal depending on your install script and press enter.
 6. Accept the license terms when prompted by entering yes.
 7. Confirm the install location by pressing enter when prompted.
-8. Initialize Miniforge3 by running `conda init` when prompted.
+8. Enter yes when prompted to initialise Miniforge3 by running conda init.
 
 #### Homebrew Install
 
