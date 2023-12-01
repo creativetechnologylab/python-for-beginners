@@ -26,7 +26,7 @@ Once the installation is complete, you should now be able to access a program ca
 
 ![](./pictures/miniforge-conda-windows.png)
 
-Entering `python --version` should show that Python 3.10 is now in your base environment.
+Entering `python --version` should show that Python 3.10 is now in what is known as your _base environment_. 
 
 ![](./pictures/miniforge-python-version-windows.png)
 
@@ -53,6 +53,12 @@ brew install miniforge
 #### Verify macOS Installation
 
 Open a new terminal and type either `conda` or `mamba`. You should see that both will now work on your system.
+
+![](./pictures/miniforge-conda-mac.png)
+
+Entering `python --version` should show that Python 3.10 is now in what is known as your _base environment_. 
+
+![](./pictures/miniforge-python-version-mac.png)
 
 ## Installing VSCode
 ## Many Kinds of Python
