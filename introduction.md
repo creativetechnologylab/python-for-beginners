@@ -107,4 +107,4 @@ In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output
 - Python can be used in an interactive mode, in notebooks, or in standard Python files.
 
 ---
-[Next](variables.md) | [List of Contents](README.md)
+[List of Contents](README.md) | [Next](variables.md)
