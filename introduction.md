@@ -2,13 +2,13 @@
 
 ## Why Python?
 
-Python stands out as a remarkably versatile programming language, finding utility across diverse domains such as web development, data analysis, and machine learning. Its strength lies in its extensive library support, offering a broad spectrum of additional functionalities for your code.
+Python is a highly versatile programming language, making it suitable for diverse domains such as web development, data analysis, and machine learning. One very important strength of Python is its extensive library support, which allow you to add a broad spectrum of additional functionalities for your code.
 
-Moreover, Python excels in interoperability, allowing interaction with other software tools like Touch Designer, Unreal Engine, and Unity.
+Moreover, Python can be used to interface with other software tools like Touch Designer, Unreal Engine, and Unity.
 
 ## Installing Miniforge
 
-Miniforge, a distribution of Conda, serves as a comprehensive package manager and environment management system, simplifying the complexities of package installation and dependency management. Its utility lies in the ability to manage separate Python environments for different projects. Follow the steps below to install Miniforge on your system.
+Miniforge, a distribution of Conda, serves as a comprehensive package manager and environment management system, simplifying package installation and dependency management. Its utility lies in the ability to manage separate Python environments for different projects. This in turn prevents issues from arising if different projects require different versions of Python or different versions of the same library. Another advantage of using environments is that they can easily be deleted once a project has been completed, which allows us to keep our core Python installation "clean" from add-ons that are no longer needed. Follow the steps below to install Miniforge on your system.
 
 ### Windows
 
