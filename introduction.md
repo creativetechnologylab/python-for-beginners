@@ -6,6 +6,8 @@ Python is a highly versatile programming language, making it suitable for divers
 
 Moreover, Python can be used to interface with other software tools like Touch Designer, Unreal Engine, and Unity.
 
+<!-- todo: why install miniforge, v envs, etc -->
+
 ## Installing Miniforge
 
 Miniforge, a distribution of Conda, serves as a comprehensive package manager and environment management system, simplifying package installation and dependency management. Its utility lies in the ability to manage separate Python environments for different projects. This in turn prevents issues from arising if different projects require different versions of Python or different versions of the same library. Another advantage of using environments is that they can easily be deleted once a project has been completed, which allows us to keep our core Python installation "clean" from add-ons that are no longer needed. Follow the steps below to install Miniforge on your system.
@@ -64,7 +66,7 @@ Entering `python --version` should indicate that Python 3.10 is now part of your
 
 ## Installing VS Code
 
-This guide introduces Python programming through the use of Visual Studio Code (VS Code), a versatile Integrated Development Environment (IDE) developed by Microsoft. IDEs offer a number of useful features for development, such as debugging, integration with testing tools, Version Control software integration, and auto-completion. In time you'll find such tools will greatly enhance your productivity and enable you to spot problems earlier.
+This guide introduces Python programming through the use of Visual Studio Code (VS Code), a versatile Integrated Development Environment (IDE) developed by Microsoft. IDEs offer a number of useful features for development, such as debugging, testing, Version Control software integration, and auto-completion. In time you'll find such tools will greatly enhance your productivity and will enable you to spot problems earlier. A stitch in time saves nine.
 
 To install VS Code, download the appropriate setup file for your system from [here](https://code.visualstudio.com/download) and go through the setup steps. Alternatively, if you are on a UAL machine, you can use Self-Service if VS Code is not already installed.
 
@@ -100,7 +102,7 @@ In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output
 - Python is a versatile programming language.
 - To effectively manage diverse Python project requirements, we employ virtual environments.
 - Conda and Mamba facilitate quick creation of virtual environments and library installations.
-- VS Code stands out as a popular editor for Python development.
+- IDEs provide comprehensive tools and features to streamline and facilitate the entire software development process, including code writing, debugging, and project management.
 - Python can be used in an interactive mode, in notebooks, or in standard Python files.
 
 ---
