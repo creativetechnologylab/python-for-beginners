@@ -6,9 +6,9 @@
 
 - [Why Python?](introduction.md#why-python)
 - [Installing Miniforge](introduction.md#installing-miniforge)
-- [Installing VSCode](introduction.md#installing-vscode)
-- [Introduction to the VSCode IDE](introduction.md#introduction-to-the-vscode-ide)
-- [Making VSCode Recognise Conda or Mamba](introduction.md#making-vscode-recognise-conda-or-mamba)
+- [Installing VS Code](introduction.md#installing-vscode)
+- [Introduction to the VS Code IDE](introduction.md#introduction-to-the-vscode-ide)
+- [Making VS Code Recognise Conda or Mamba](introduction.md#making-vscode-recognise-conda-or-mamba)
 - [Many Kinds of Python](introduction.md#many-kinds-of-python)
 
 ### Getting Started
@@ -38,8 +38,8 @@ break, continue, etc
 
 ### Debugging
 
-### Working with Git
+### Using VS Code with Git
 
 ## Feedback
 
-Feel free to create an [issue](https://github.com/creativetechnologylab/python-for-beginners/issues) if you spot a mistake, want to see something added, etc.
+Feel free to create an [issue](https://github.com/creativetechnologylab/python-for-beginners/issues) if you spot a mistake, want to see something added or changed, etc.
