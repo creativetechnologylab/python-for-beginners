@@ -15,7 +15,7 @@
 - [Using Python as a Calculator](getting-started.md#using-python-as-a-calculator)
 - [Comments](getting-started.md#comments)
 
-### Variables, Numbers and Text
+### Variables and Basic Data Types
 
 - [Variable Assignment](variables.md#variable-assignment)
 - [Variable Reassignment](variables.md#variable-reassignment)
@@ -33,11 +33,15 @@ break, continue, etc
 
 ### Functions
 
+### Libraries
+
 ### Object-Oriented Programming
 
-### Debugging
-
 ### Using VS Code with Git
+
+### Debugging with VS Code
+
+### Writing and Running Python Tests
 
 ## Feedback
 
