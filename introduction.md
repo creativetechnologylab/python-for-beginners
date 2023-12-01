@@ -2,13 +2,13 @@
 
 ## Why Python?
 
-Python is the swiss army knife of programming languages. It can be used for a number of things which include but are not limited to web development, data analysis, and machine learning. Python also allows you to use a wide range of libraries that enable you to add extra functionality to your code.
+Python is a highly versatile programming language. It can be used for a number of things which include but are not limited to web development, data analysis, and machine learning. There is a wide range of libraries that can be used to add extra functionality to your code. 
 
 Python also has the benefit of being able to interact with other software such as Touch Designer, Unreal Engine and Unity.
 
 ## Installing Miniforge
 
-Miniforge is a distribution of Conda, a package manager and environment management system that simplifies package installation and dependency management. Follow the steps below to install Miniforge on your system.
+Miniforge is a distribution of Conda, a package manager and environment management system that simplifies package installation and dependency management. It is helpful because it allows us to manage seperate Python environments for our different projects. Follow the steps below to install Miniforge on your system.
 
 ### Windows
 
@@ -31,6 +31,8 @@ Entering `python --version` should show that Python 3.10 is now in what is known
 ![](./pictures/miniforge-python-version-windows.png)
 
 ### macOS
+
+In MacOS you can install Miniforge by running a script or by using Homebrew.
 
 #### Script Install
 
@@ -64,6 +66,11 @@ Entering `python --version` should show that Python 3.10 is now in what is known
 ## Many Kinds of Python
 ## Summary
 
-- Python is 
+- Python is a versatile programming language that can be used in various different ways
+- To most effectively manage different requirements for different Python projects, we use virtual environments
+- Conda and Mamaba enable us to create virtual environments quickly, and also allows us to install libraries
+- VSCode is a popular editor for Python development
+- Python can be used in an interactive mode, in a notebook, or in a Python file
+
 ---
 [Next](variables.md) | [List of Contents](README.md)
