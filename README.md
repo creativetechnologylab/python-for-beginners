@@ -7,7 +7,6 @@
 - [Why Python?](introduction.md#why-python)
 - [Installing Miniforge](introduction.md#installing-miniforge)
 - [Installing VS Code](introduction.md#installing-vscode)
-- [Introduction to the VS Code IDE](introduction.md#introduction-to-the-vscode-ide)
 - [Making VS Code Recognise Conda or Mamba](introduction.md#making-vscode-recognise-conda-or-mamba)
 - [Many Kinds of Python](introduction.md#many-kinds-of-python)
 
