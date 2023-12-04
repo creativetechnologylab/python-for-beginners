@@ -96,6 +96,8 @@ Open the Miniforge Prompt and type `where conda` or `where mamba`. Copy and past
 
 In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output into the Conda Path field in the VS Code settings. Close the Settings tab.
 
+## Basic Conda / Mamba Usage
+
 ## Many Kinds of Python
 ## Summary
 
