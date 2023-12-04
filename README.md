@@ -8,7 +8,7 @@
 - [Installing Miniforge](introduction.md#installing-miniforge)
 - [Installing VS Code](introduction.md#installing-vscode)
 - [Making VS Code Recognise Conda or Mamba](introduction.md#making-vscode-recognise-conda-or-mamba)
-- [Basic Conda / Mamba Usage](introduction.md#basic-conda-mamba-usage)
+- [Basic Conda / Mamba Usage](introduction.md#basic-conda--mamba-usage)
 - [Many Kinds of Python](introduction.md#many-kinds-of-python)
 
 ### Getting Started
