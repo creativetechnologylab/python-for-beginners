@@ -98,6 +98,77 @@ In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output
 
 ## Basic Conda / Mamba Usage
 
+When creating a new Python project, it is a good idea to create a seperate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating seperate Python envirnonments helps keep things tidy.  
+
+### Creating an Environment
+
+To create an environment, we give the following command:  
+
+Conda:
+```
+conda create -n <env-name>
+```
+Mamba:
+```
+mamba create -n <env-name>
+```
+
+By default, this will create an environment with the same Python version as your base environment.
+
+Creating a new environment with a _specific_ version of Python can be done with the following command:
+
+Conda:
+```
+conda create -n <env-name> python=X.X
+```
+Mamba:
+```
+mamba create -n <env-name> python=X.X
+```
+
+### Activating / Deactivating Environments
+
+To activate an environment we then use the following command:  
+
+Conda:
+```
+conda activate <env-name>
+```
+Mamba:
+```
+mamba activate <env-name>
+```
+When an environment has been activated, using the `python` command will cause that particular environment's `python` to be used rather than that of the base environment.
+
+Using the `deactivate` command then allows you to return to the base environment:  
+
+Conda:
+```
+conda deactivate
+```
+Mamba:
+```
+mamba deactivate
+```
+
+### Installing Libraries
+
+In many cases, a library can be installed through Mamba or Conda. This can be achieved with the following command:
+
+Conda:
+```
+conda install <library-name>
+```
+Mamba:
+```
+mamba install <library-name>
+```
+Alternatively, a library can also be installed with `pip`. This will also install the library to the environment.
+
+```
+pip install <library-name>
+```
+
 ## Many Kinds of Python
 ## Summary
 
