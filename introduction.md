@@ -138,7 +138,7 @@ Mamba:
 ```
 mamba activate <env-name>
 ```
-When an environment has been activated, using the `python` command will cause that particular environment's `python` to be used rather than that of the base environment.
+When an environment has been activated, using the `python` command will cause that particular environment's version of `python` to be used rather than that of the base environment.
 
 Using the `deactivate` command then allows you to return to the base environment:  
 
@@ -170,6 +170,11 @@ pip install <library-name>
 ```
 
 ## Many Kinds of Python
+
+Python can be run in the terminal. This can be useful if you want to do something simple, like checking if a library you've installed is working.
+
+![](./pictures/python-in-terminal.gif)
+
 ## Summary
 
 - Python is a versatile programming language.
