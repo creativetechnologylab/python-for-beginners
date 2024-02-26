@@ -14,9 +14,7 @@ After that, choose a folder for saving the file.
 
 ![](./pictures/create-python-file-vs-code.gif)
 
-Now we can see our new Python file open in VSCode.
-
-![](./pictures/empty-python-file.png)
+Now you can see your new file open in VSCode.
 
 ## Using Python as a Calculator
 
