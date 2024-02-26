@@ -18,3 +18,5 @@ Now you can see your new file open in VSCode.
 
 ## Using Python as a Calculator
 
+---
+[Prev](introduction.md) | [List of Contents](README.md) | [Next](variables.md)
