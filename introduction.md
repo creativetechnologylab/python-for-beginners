@@ -196,4 +196,4 @@ Notebooks are another way of using Python. The notebook for the Introduction to 
 - Python can be used in the terminal, in Python script files, or in notebooks.
 
 ---
-[List of Contents](README.md) | [Next](variables.md)
+[List of Contents](README.md) | [Next](getting-started.md)
