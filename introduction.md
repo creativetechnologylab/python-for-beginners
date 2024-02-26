@@ -183,6 +183,9 @@ We can also use Python scripts. These are files that end in the `.py` extension.
 
 ![](./pictures/python-script.gif)
 
+### Notebooks
+
+Notebooks are another way of using Python. The notebook for the Introduction to Python workshop can be found [here](https://bit.ly/3F5b88F).
 
 ## Summary
 
@@ -190,7 +193,7 @@ We can also use Python scripts. These are files that end in the `.py` extension.
 - To effectively manage diverse Python project requirements, we employ virtual environments.
 - Conda and Mamba facilitate quick creation of virtual environments and library installations.
 - IDEs provide comprehensive tools and features to streamline and facilitate the entire software development process, including code writing, debugging, and project management.
-- Python can be used in an interactive mode, in notebooks, or in standard Python files.
+- Python can be used in the terminal, in Python script files, or in notebooks.
 
 ---
 [List of Contents](README.md) | [Next](variables.md)
