@@ -13,6 +13,7 @@
 
 ### Getting Started
 
+- [Creating a Python File](getting-started.md#creating-a-python-file)
 - [Using Python as a Calculator](getting-started.md#using-python-as-a-calculator)
 - [Comments](getting-started.md#comments)
 
