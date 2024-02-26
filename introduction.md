@@ -96,6 +96,28 @@ Open the Miniforge Prompt and type `where conda` or `where mamba`. Copy and past
 
 In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output into the Conda Path field in the VS Code settings. Close the Settings tab.
 
+## Choosing a Python Interpreter
+
+Now that VSCode can see your Conda/Mamba installation, we can use its `base` environment as our interpreter for Python projects.
+
+To do this we press Ctrl + Shift + P (Windows) or Command + Shift + P (Mac) to bring up VS Code's Command Palette.
+
+![](./pictures/command-palette.png)
+
+Type in "Select Interpreter" and you should see the option of choosing a Python interpreter.
+
+![](./pictures/python-interpreter.png)
+
+Clicking this will lead to a drop-down option of possible Python interpreters for our Python files. Select the base Conda/Mamba interpreter. This one will say "Conda" on the right.
+
+![](./pictures/choose-conda-base-interpreter.png)
+
+Now any Python file run within VS Code will make use of the base Conda/Mamba environment by default. We will want to change this later on, but for now this works.
+
+And here are the full steps in a gif.
+
+![](./pictures/select-interpreter.gif)
+
 ## Basic Conda / Mamba Usage
 
 When creating a new Python project, it is a good idea to create a seperate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating seperate Python envirnonments helps keep things tidy.  
