@@ -171,9 +171,18 @@ pip install <library-name>
 
 ## Many Kinds of Python
 
+### Terminal
+
 Python can be run in the terminal. This can be useful if you want to do something simple, like checking if a library you've installed is working.
 
 ![](./pictures/python-in-terminal.gif)
+
+### Script
+
+We can also use Python scripts. These are files that end in the `.py` extension. Below is an example of a basic Python script being executed. 
+
+![](./pictures/python-script.gif)
+
 
 ## Summary
 
