@@ -52,7 +52,11 @@ As you code more in Python, you'll find yourself using more commands that need t
 
 ## Summary
 
-Todo.
+- VS Code can be used to manage Python projects containing multiple files.
+- Python can perform basic maths.
+- The `print()` command in Python can display information on our terminal.
+- Auto Complete helps shorten the process of typing out something while coding.
+- Parameter Hints remind us how a command should be used, and what inputs it's expecting.
 
 ---
 [Prev](introduction.md) | [List of Contents](README.md) | [Next](variables.md)
