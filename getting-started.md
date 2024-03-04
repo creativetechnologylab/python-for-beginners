@@ -2,19 +2,21 @@
 
 ## Creating a Python File
 
-We can make a simple Python program to do some maths for us. Start by creating a new file in VSCode.
+We can make a simple Python program to do some maths for us. Start by opening a folder in VSCode.
 
-![](./pictures/new-file-vs-code.png)
+![](./pictures/vscode-open-folder.png)
 
-Now give the Python file a name. It must end in `.py`.
+Now, using either Explorer (Windows) or Finder (Mac), create a folder named "python-exercises." Make sure the folder is in a location that is easy to remember. Now open the folder and click "Select Folder".
 
-![](./pictures/vs-code-new-python-file.png)
+![](./pictures/create-python-folder.gif)
 
-After that, choose a folder for saving the file. 
+Now we can see that this folder has been opened with VSCode. Click on the "New File" icon to create a new file within the folder.
 
-![](./pictures/create-python-file-vs-code.gif)
+![](./pictures/create-file-vscode.png)
 
-Now you can see your new file open in VSCode.
+Name this file "calculator.py". By giving it the py extention, VSCode knows to treat it as a Python file.
+
+![](./pictures/make-calculator-file.gif)
 
 ## Using Python as a Calculator
 
