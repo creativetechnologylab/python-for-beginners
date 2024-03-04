@@ -98,7 +98,7 @@ In a terminal type `whereis conda` or `whereis mamba`. Copy and paste the output
 
 ## Choosing a Python Interpreter
 
-Now that VSCode can see your Conda/Mamba installation, we can use its `base` environment as our interpreter for Python projects.
+Now that VS Code can see your Conda/Mamba installation, we can use its `base` environment as our interpreter for Python projects.
 
 To do this we press Ctrl + Shift + P (Windows) or Command + Shift + P (Mac) to bring up VS Code's Command Palette.
 
