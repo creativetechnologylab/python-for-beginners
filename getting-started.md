@@ -54,7 +54,12 @@ As you code more in Python, you'll find yourself using more commands that need t
 
 ## Comments
 
+When you run Python code, something called the **Python Interpreter** converts Python code into something the machine can understand. When the interpreter encouters the # symbol it ignores this symbol and any text following it. Comments allow you to clarify your code, which can be especially helpful for your future self or other people you are working with. Getting into the habit of writing comments helps make your code more maintainable in the long-run.
 
+```python
+# this bit of text will not be run
+print(1 + 1) # this print statement will be run
+```
 
 ## Summary
 
