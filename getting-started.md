@@ -68,6 +68,7 @@ print(1 + 1) # this print statement will be run
 - The `print()` command in Python can display information on our terminal.
 - Auto Complete helps shorten the process of typing out something while coding.
 - Parameter Hints remind us how a command should be used, and what inputs it's expecting.
+- Commenting your code makes it easier to use and understand.
 
 ---
 [Prev](introduction.md) | [List of Contents](README.md) | [Next](variables.md)
