@@ -58,7 +58,7 @@ When you run Python code, something called the **Python Interpreter** converts P
 
 ```python
 # this bit of text will not be run
-print(1 + 1) # this print statement will be run
+print(1 + 1) # this print statement will be run, but this comment will not
 ```
 
 ## Summary
