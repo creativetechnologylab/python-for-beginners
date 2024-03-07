@@ -120,7 +120,7 @@ And here are the full steps in a gif.
 
 ## Basic Conda / Mamba Usage
 
-When creating a new Python project, it is a good idea to create a seperate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating seperate Python envirnonments helps keep things tidy.  
+When creating a new Python project, it is a good idea to create a separate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating separate Python environments helps keep things tidy.  
 
 ### Creating an Environment
 

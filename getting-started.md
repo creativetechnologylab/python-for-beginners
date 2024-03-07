@@ -14,7 +14,7 @@ Now we can see that this folder has been opened with VS Code. Click on the "New 
 
 ![](./pictures/create-file-vscode.png)
 
-Name this file "calculator.py". By giving it the `.py` extention, VS Code knows to treat it as a Python file. This will cause the new file to then open in the editor area.
+Name this file "calculator.py". By giving it the `.py` extension, VS Code knows to treat it as a Python file. This will cause the new file to then open in the editor area.
 
 ![](./pictures/make-calculator-file.gif)
 
@@ -54,7 +54,7 @@ As you code more in Python, you'll find yourself using more commands that need t
 
 ## Comments
 
-When you run Python code, something called the **Python Interpreter** converts Python code into something the machine can understand. When the interpreter encouters the # symbol it ignores this symbol and any text following it. Comments allow you to clarify your code, which can be especially helpful for your future self or other people you are working with. Getting into the habit of writing comments helps make your code more maintainable in the long-run.
+When you run Python code, something called the **Python Interpreter** converts Python code into something the machine can understand. When the interpreter encounters the # symbol it ignores this symbol and any text following it. Comments allow you to clarify your code, which can be especially helpful for your future self or other people you are working with. Getting into the habit of writing comments helps make your code more maintainable in the long-run.
 
 ```python
 # this bit of text will not be run
