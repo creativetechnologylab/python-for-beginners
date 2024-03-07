@@ -36,7 +36,7 @@ Now, instead have the code run `print(2 + 2)` and then save your file and run it
 
 In Python, `print()` is a built-in command used to display output to the console. It takes zero or more values and displays them as text.
 
-> **EXTRA**: Try using the division `\` , multiplication `*`, and power `**` operators to perform other calculations.
+> **EXTRA**: Try using the division `\` , floor division `\\`, multiplication `*`, modulo `%`, and power `**` operators to perform other calculations.
 
 ### Auto Complete and Parameter Hints
 
