@@ -36,7 +36,9 @@ Now, instead have the code run `print(2 + 2)` and then save your file and run it
 
 In Python, `print()` is a built-in command used to display output to the console. It takes zero or more values and displays them as text.
 
-## Auto Complete and Parameter Hints
+> **EXTRA**: Try using the division `\` , multiplication `*`, and power `**` operators to perform other calculations.
+
+### Auto Complete and Parameter Hints
 
 As you were typing out the `print()` command earlier, you may have noticed a box appear with a list of items. At first it's a list of items beginning with p, and then a list of items with the letters p and r in them, and so-on. This is a feature found in many IDEs known as Auto Complete. The purpose of Auto Complete is to save you some extra keystrokes by presenting you with a list of things it thinks you are in the process of typing out. If the item at the top of the list is what you're after then you can hit the Enter key and the rest will be entered in for you.
 
@@ -49,6 +51,10 @@ Another helpful features in IDEs is Parameter Hints. This gives us a description
 ![](./pictures/parameter-hints.gif)
 
 As you code more in Python, you'll find yourself using more commands that need to be used in a specific way and that expect its inputs to be given in a specific order. Getting a reminder from the IDE on how this should be done can save a bit of Googling time.
+
+## Comments
+
+
 
 ## Summary
 
