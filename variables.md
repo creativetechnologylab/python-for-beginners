@@ -2,8 +2,8 @@
 
 ## Variable Assignment
 ## Variable Resassignment
-## Strings
 ## Integers and Floats
+## Strings
 ## Booleans
 ## Summary
 ---

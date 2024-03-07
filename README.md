@@ -22,8 +22,8 @@
 
 - [Variable Assignment](variables.md#variable-assignment)
 - [Variable Reassignment](variables.md#variable-reassignment)
-- [Strings](variables.md#strings)
 - [Integers and Floats](variables.md#integers-and-floats)
+- [Strings](variables.md#strings)
 - [Booleans](variables.md#booleans)
 
 ### Collections
