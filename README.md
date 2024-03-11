@@ -21,7 +21,9 @@
 ### Variables
 
 - [Variable Assignment](variables.md#variable-assignment)
+- [Name Error](variables.md#name-error)
 - [Variable Reassignment](variables.md#variable-reassignment)
+- [Naming Variables](variables.md#naming-variables)
 
 ### Basic Data Types
 
