@@ -18,13 +18,16 @@
 - [`print()` and Using Python as a Calculator](getting-started.md#print-and-using-python-as-a-calculator)
 - [Comments](getting-started.md#comments)
 
-### Variables and Basic Data Types
+### Variables
 
 - [Variable Assignment](variables.md#variable-assignment)
 - [Variable Reassignment](variables.md#variable-reassignment)
-- [Integers and Floats](variables.md#integers-and-floats)
-- [Strings](variables.md#strings)
-- [Booleans](variables.md#booleans)
+
+### Basic Data Types
+
+- [Integers and Floats](basic-data-types.md#integers-and-floats)
+- [Strings](basic-data-types.md#strings)
+- [Booleans](basic-data-types.md#booleans)
 
 ### Collections
 

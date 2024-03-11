@@ -36,11 +36,18 @@ print(year)
 
 The `year` variable starts out as having the value 2023. This is then replaced with the value 2024. This is like taking the 2023 that was in the box to start with then chucking it away, and replacing it with the 2024. The 2023 is now "lost" and can't be retrieved.
 
+### Multiple Boxes
+
+It is possible for the same bit of information to belong to multiple boxes. 
+
 ### Garbage Collection
 
 When something is thrown away and no longer belongs to a box, the Python **garbage collector** deletes it once and for all so that the memory used to store it can be freed for something else. In languages such as C and Fortran, this is something that has to be done manually, which can lead to problems such as memory leaks. Python uses **reference counting** to determine when some data is lying around and is no longer in a box and is safe to delete. 
 
 ## Naming Variables
+
+Python has certain rules about naming variables.
+
 ## Name Error
 
 Something we can't do is attempt to access a variable that has never been created. In Python this leads to what is known as a **NameError**.
@@ -56,9 +63,7 @@ print(my_other_val)
 
 print(this_does_not_exist)
 ```
-## Integers and Floats
-## Strings
-## Booleans
+
 ## Summary
 ---
-[Prev](getting-started.md) | [List of Contents](README.md) | [Next](collections.md)
+[Prev](getting-started.md) | [List of Contents](README.md) | [Next](basic-data-types.md)
