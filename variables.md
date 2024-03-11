@@ -17,7 +17,7 @@ my_val = 10 + 2
 print(my_val)
 ```
 
-When a variable is given a value, we call this **variable assignment**. The equals (=) symbol is often refered to as the **assignment operator**.
+When a variable is given a value, we call this **variable assignment**. The equals (=) symbol is often referred to as the **assignment operator**.
 
 The **assignment operator** is how we let Python know that we want to take a box with a particular label, and place some information in the box. Then if we ever want to see or use what's inside that box again, we can use the variable's name to access the information another time.
 
