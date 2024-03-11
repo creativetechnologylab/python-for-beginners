@@ -23,8 +23,23 @@ The **assignment operator** is how we let Python know that we want to take a box
 
 Python, unlike some other languages, isn't especially fussed about knowing in advance what _type_ of information you wish to place inside a box. 
 
-## Variable Resassignment
+## Variable Reassignment
+
+It's also possible to change the information that's inside a box. This is known as *variable reassignment*. Try running the code below:
+
+```python
+year = 2023
+print(year)
+my_age = 2024
+print(year)
+```
+
+The `year` variable starts out as having the value 2023. This is then replaced with the value 2024. This is like taking the 2023 that was in the box to start with then chucking it away, and replacing it with the 2024. The 2023 is now "lost" and can't be retrieved.
+
 ### Garbage Collection
+
+When something is thrown away and no longer belongs to a box, the Python **garbage collector** deletes it once and for all so that the memory used to store it can be freed for something else. In languages such as C and Fortran, this is something that has to be done manually, which can lead to problems such as memory leaks. Python uses **reference counting** to determine when some data is lying around and is no longer in a box and is safe to delete. 
+
 ## Naming Variables
 ## Name Error
 
