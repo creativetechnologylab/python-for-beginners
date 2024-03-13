@@ -146,13 +146,52 @@ False
 True
 ```
 
+Using the `float()` and `int()` commands we can see what happens when `bool`s are converted to numbers.
+
+```pycon
+>>> float(True)
+1.0
+>>> float(False)
+0.0
+>>> int(True)
+1
+>>> int(False)
+0
+```
+
+Something similar can also be done the other way around.
+
+```pycon
+>>> bool(1.0)
+True
+>>> bool(1)
+True
+>>> bool("hello")
+True
+>>> bool(0.0)
+False
+>>> bool(0)
+False
+>>> bool("")
+False
+```
+
+However, converting `bool` to `str` gives us the words "True" and "False" in string form.
+
+```pycon
+>>> str(True)
+'True'
+>>> str(False)
+'False'
+```
+
 ## Summary
 - Python `int`s are a data type that store whole numbers.
 - Python `float`s are a data type that store numbers with a decimal place.
 - The division operator `/` will always return a `float`.
-- The floor division operator `//` can be return `int`s.
+- The floor division operator `//` can return `int`s.
 - The `float()` and `int()` commands allow us to convert between `float` and `int`.
-    - This can result in a loss of precision when a `float` is converted to an `int` as it will always round the value down to the closest integer.
+    - This can result in a loss of precision when a `float` is converted to an `int` as it will always round the value _down_ to the closest integer.
 - The `bool` data type represents the values `True` and `False`.
 
 ---
