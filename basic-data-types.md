@@ -193,6 +193,7 @@ However, converting `bool` to `str` gives us the words "True" and "False" in str
 - The `float()` and `int()` commands allow us to convert between `float` and `int`.
     - This can result in a loss of precision when a `float` is converted to an `int` as it will always round the value _down_ to the closest integer.
 - The `bool` data type represents the values `True` and `False`.
+- Data types other than `bool` may still have a truth-value.
 
 ---
 [Prev](variables.md) | [List of Contents](README.md) | [Next](collections.md)
