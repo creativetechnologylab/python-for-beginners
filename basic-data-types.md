@@ -116,7 +116,7 @@ Booleans are a type that represent one of two possible values: `True` or `False`
 
 Now let's revisit the example of using the `is` operator to see if two variables hold the same bit of data.
 
-```python
+```pycon
 >>> name = "Sydney"
 >>> city = name
 >>> city is name
@@ -125,7 +125,7 @@ True
 
 This is telling us that `name` and `city` are both storing the same value. Now we can try a similar thing, but this time with variables that contain _different_ data.
 
-```python
+```pycon
 >>> name = "Sydney"
 >>> city = "London"
 >>> name is city
@@ -134,5 +134,13 @@ False
 This time we get the result `False` because `"Sydney"` and `"London"` are not the same thing.
 
 ## Summary
+- Python `int`s are a data type that store whole numbers.
+- Python `float`s are a data type that store numbers with a decimal place.
+- The division operator `/` will always return a `float`.
+- The floor division operator `//` can be return `int`s.
+- The `float()` and `int()` commands allow us to convert between `float` and `int`.
+    - This can result in a loss of precision when a `float` is converted to an `int` as it will always round the value down to the closest integer.
+- The `bool` data type represents the values `True` and `False`.
+
 ---
 [Prev](variables.md) | [List of Contents](README.md) | [Next](collections.md)
