@@ -12,7 +12,7 @@ two_float = 2.0
 
 The `type()` command in Python shows us the type of some data.
 
-```ipython
+```pycon
 >>> type(2)
 <class 'int'>
 >>> type(3.2)
@@ -25,7 +25,7 @@ The meaning of `class` is something that will be explained a bit later...
 
 The division operator `/` will always return a float. This is true when it is applied to `float` and `int`.
 
-```ipython
+```pycon
 >>> 1 / 2
 0.5
 >>> 4 / 2
@@ -37,7 +37,7 @@ The division operator `/` will always return a float. This is true when it is ap
 
 The floor division operator `//` can be used to obtain an `int` result from division if two integers are given as inputs.
 
-```ipython
+```pycon
 >>> 15.0 // 3
 5.0
 >>> 15 // 3
@@ -47,7 +47,7 @@ The floor division operator `//` can be used to obtain an `int` result from divi
 
 Floats can be converted to integers with the `int()` function. This will round down.
 
-```ipython
+```pycon
 >>> int(3.5)
 3
 >>> int(3.0)
@@ -57,7 +57,7 @@ Floats can be converted to integers with the `int()` function. This will round d
 ```
 Likewise, there is a `float()` command that can convert an `int` to a `float`.
 
-```ipython
+```pycon
 >>> float(3)
 3.0
 >>> float(1)
@@ -66,7 +66,7 @@ Likewise, there is a `float()` command that can convert an `int` to a `float`.
 
 There are also a couple of other ways we can convert an `int` to a `float`.
 
-```ipython
+```pycon
 >>> 5 + 0.0
 5.0
 >>> 10 * 1.0
@@ -77,7 +77,7 @@ There are also a couple of other ways we can convert an `int` to a `float`.
 
 The `string` type can hold text information. We can use either double or single quotation marks to create them.
 
-```ipython
+```pycon
 >>> "hello"
 'hello'
 >>> 'hello'
@@ -86,7 +86,7 @@ The `string` type can hold text information. We can use either double or single 
 
 In both cases, their `type()` will still be `string`.
 
-```ipython
+```pycon
 >>> type("hello")
 <class 'str'>
 >>> type('hello')
@@ -95,13 +95,13 @@ In both cases, their `type()` will still be `string`.
 
 The `+` operator allows us to combine or _concatenate_ strings. But sometimes you need to remember to add a space!
 
-```ipython
+```pycon
 >>> "hello" + "world"
 'helloworld'
 ```
 Instead we could do one of the following:
 
-```ipython
+```pycon
 >>> "hello " + "world"
 'hello world'
 >>> "hello" + " world"
