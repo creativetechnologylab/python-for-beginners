@@ -74,6 +74,42 @@ There are also a couple of other ways we can convert an `int` to a `float`.
 ```
 
 ## Strings
+
+The `string` type can hold text information. We can use either double or single quotation marks to create them.
+
+```ipython
+>>> "hello"
+'hello'
+>>> 'hello'
+'hello'
+```
+
+In both cases, their `type()` will still be `string`.
+
+```ipython
+>>> type("hello")
+<class 'str'>
+>>> type('hello')
+<class 'str'>
+```
+
+The `+` operator allows us to combine or _concatenate_ strings. But sometimes you need to remember to add a space!
+
+```ipython
+>>> "hello" + "world"
+'helloworld'
+```
+Instead we could do one of the following:
+
+```ipython
+>>> "hello " + "world"
+'hello world'
+>>> "hello" + " world"
+'hello world'
+>>> "hello" + " " + "world"
+'hello world'
+```
+
 ## Booleans
 ## Summary
 ---
