@@ -18,6 +18,9 @@ The `type()` command in Python shows us the type of some data.
 >>> type(3.2)
 <class 'float'>
 ```
+
+The meaning of `class` is something that will be explained a bit later...
+
 ### Division Operator
 
 The division operator `/` will always return a float. This is true when it is applied to `float` and `int`.
