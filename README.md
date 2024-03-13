@@ -33,12 +33,17 @@
 
 ### Collections
 
-Lists, Tuples, Dictionaries, Sets
-Comprehensions
+- [Lists](collections.md#lists)
+- [Tuples](collections.md#tuples)
+- [Dictionaries](collections.md#dictionaries)
+- [Sets](collections.md#sets)
+- [Comprehensions](collections.md#comprehensions)
 
 ### Loops
 
-break, continue, etc
+For Loops
+While Loops
+Break and Continue
 
 ### Control Flow and Conditional Statements
 
