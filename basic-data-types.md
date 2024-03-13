@@ -55,6 +55,23 @@ Floats can be converted to integers with the `int()` function. This will round d
 >>> int(3.9)
 3
 ```
+Likewise, there is a `float()` command that can convert an `int` to a `float`.
+
+```ipython
+>>> float(3)
+3.0
+>>> float(1)
+1.0
+```
+
+There are also a couple of other ways we can convert an `int` to a `float`.
+
+```ipython
+>>> 5 + 0.0
+5.0
+>>> 10 * 1.0
+10.0
+```
 
 ## Strings
 ## Booleans
