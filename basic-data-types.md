@@ -111,6 +111,28 @@ Instead we could do one of the following:
 ```
 
 ## Booleans
+
+Booleans are a type that represent one of two possible values: `True` or `False`. They are an important part of conditional statements, which will be covered in more detail later in this tutorial.
+
+Now let's revisit the example of using the `is` operator to see if two variables hold the same bit of data.
+
+```python
+>>> name = "Sydney"
+>>> city = name
+>>> city is name
+True
+```
+
+This is telling us that `name` and `city` are both storing the same value. Now we can try a similar thing, but this time with variables that contain _different_ data.
+
+```python
+>>> name = "Sydney"
+>>> city = "London"
+>>> name is city
+False
+```
+This time we get the result `False` because `"Sydney"` and `"London"` are not the same thing.
+
 ## Summary
 ---
 [Prev](variables.md) | [List of Contents](README.md) | [Next](collections.md)
