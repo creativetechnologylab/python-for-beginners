@@ -133,6 +133,19 @@ False
 ```
 This time we get the result `False` because `"Sydney"` and `"London"` are not the same thing.
 
+### Truth Values
+
+There are data types other than booleans that can still have truth-values. Python considers empty strings and the number 0 in `float` and `int` form to be `False`. A non-empty string and any number other than 0 in `int` or `float` form is considered `True`.
+
+```pycon
+>>> 1 == True
+True
+>>> 0 == True
+False
+>>> 0 == False
+True
+```
+
 ## Summary
 - Python `int`s are a data type that store whole numbers.
 - Python `float`s are a data type that store numbers with a decimal place.
