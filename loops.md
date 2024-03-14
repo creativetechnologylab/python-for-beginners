@@ -1,5 +1,9 @@
 # Loops
 
+Loops can be used for iterating over a sequence, or for repeating a block of code. They are a bit like the programming equivalent of a conveyor belt.
+
+![](pictures/conveyor-belt.jpg)
+
 ## For Loops
 ## While Loops
 ## Comprehensions
