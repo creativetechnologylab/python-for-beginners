@@ -30,6 +30,7 @@
 - [Integers and Floats](basic-data-types.md#integers-and-floats)
 - [Strings](basic-data-types.md#strings)
 - [Booleans](basic-data-types.md#booleans)
+<!-- Something about None? -->
 
 ### Collections
 
@@ -49,6 +50,11 @@
 - [`break` and `continue`](loops.md#break-and-continue)
 
 ### Control Flow and Conditional Statements
+
+- [`if`](control-flow.md#if)
+- [`if...else`](control-flow.md#if-else)
+- [`elif`](control-flow.md#elif)
+- [`break`](control-flow.md#break)
 
 ### Functions
 
