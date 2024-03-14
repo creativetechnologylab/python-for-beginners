@@ -291,6 +291,39 @@ TypeError: 'str' object does not support item assignment
 ```
 
 ## Slicing
+
+Slicing allows us to pick segments from a List or String. Let's say we wanted to get just the first three characters from a String or the first three elements from a list. Slicing makes it much simpler to do this.
+
+```pycon
+>>> my_string = "hello"
+>>> my_string[:3]
+'hel'
+```
+
+```pycon
+>>> my_list = [1, 2, 3, 4, 5]
+>>> my_list[:3]
+[1, 2, 3]
+```
+
+By indexing at -1, we can pick out the _last_ item.
+
+```pycon
+>>> my_string
+'hello'
+>>> my_string[-1]
+'o'
+```
+
+```pycon
+>>> my_list
+[1, 2, 3, 4, 5]
+>>> my_list[-1]
+5
+```
+
+You can read more about slicing [here](https://www.freecodecamp.org/news/slicing-and-indexing-in-python/).
+
 ## Other Stuff
 
 ### `len()`

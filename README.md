@@ -38,6 +38,7 @@
 - [Dictionaries](collections.md#dictionaries)
 - [Sets](collections.md#sets)
 - [Strings](collections.md#strings)
+- [Slicing](collections.md#slicing)
 - [Other Stuff](collections.md#other-stuff)
 
 ### Loops
