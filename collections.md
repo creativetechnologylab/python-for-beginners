@@ -271,7 +271,25 @@ A similar thing applies to creating Sets.
 {1, 2, 3}
 ```
 
-## Comprehensions
+## Strings
+
+Strings aren't a type of collection, but can still behave like them. For example, we can use indexing to get a particular character from a string.
+
+```pycon
+>>> my_string = "hello"
+>>> my_string[3]
+'l'
+```
+
+Strings are also _unchangeable_.
+
+```pycon
+>>> my_string[3] = "!"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+```
+
 ## Slicing
 ## Other Stuff
 

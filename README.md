@@ -37,7 +37,7 @@
 - [Tuples](collections.md#tuples)
 - [Dictionaries](collections.md#dictionaries)
 - [Sets](collections.md#sets)
-- [Comprehensions](collections.md#comprehensions)
+- [Strings](collections.md#strings)
 - [Other Stuff](collections.md#other-stuff)
 
 ### Loops
