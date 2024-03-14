@@ -226,9 +226,150 @@ Dictionary keys have to be unique. Attempting to have two bits of data with the 
 ## Sets
 ## Comprehensions
 ## Slicing
-## `in`
+## Other Stuff
 
-len(), in, other stuff
+### `len()`
+
+It is possible to check for the length of a collection using `len()`.
+
+#### Lists
+
+```pycon
+>>> len(["a", "b", "c"])
+3
+>>> len([]) # empty list
+0
+```
+
+#### Tuples
+```pycon
+>>> len(("item-1", "item-2", "item-3"))
+3
+>>> len(()) # empty tuple
+0
+```
+
+#### Dictionaries
+```pycon
+>>> len({'United Kingdom': 'London', 'Azerbaijan': 'Baku', 'Norway': 'Oslo'})
+3
+>>> len({}) # empty dictionary
+0
+```
+
+In the case of Dictionaries, `len()` counts the number of key-value pairs.
+
+#### Sets
+```pycon
+>>> len({1, 2, 3})
+3
+>>> len(set()) # empty set
+0
+```
+
+We can also observe that adding an item that already exists in a set does not cause its length to change.
+
+```pycon
+>>> simple_set = {1, 2, 3}
+>>> len(simple_set)
+3
+>>> simple_set.add(2)
+>>> len(simple_set)
+3
+```
+
+#### Strings
+
+`len()` also lets us see the length of a string.
+
+```pycon
+>>> len("cat")
+3
+>>> len("")
+0
+```
+
+### `in`
+
+The `in` keyword in Python allows us to see if something is a member of a collection.
+
+#### Lists
+
+```pycon
+>>> my_list = ["a", "b", "c"]
+>>> "a" in my_list
+True
+>>> "z" in my_list
+False
+```
+
+#### Tuples
+```pycon
+>>> my_tuple = ("a", "b", "c")
+>>> "a" in my_tuple
+True
+>>> "z" in my_tuple
+False
+```
+
+#### Dictionaries
+
+In the case of Dictionaries, `in` checks for the presence of a key.
+
+```pycon
+>>> capitals = {'United Kingdom': 'London', 'Azerbaijan': 'Baku', 'Norway': 'Oslo'}
+>>> "United Kingdom" in capitals
+True
+>>> "Singapore" in capitals
+False
+```
+
+We cannot do the same thing with values. Checking if "Oslo" is `in` our `capitals` Dictionary gives back `False`.
+
+```pycon
+>>> "Oslo" in capitals
+False
+```
+
+However, we could extract the _values_ from our Dictionary and check if "Oslo" is one of them.
+
+```pycon
+>>> capitals.values()
+dict_values(['London', 'Baku', 'Oslo'])
+>>> "Oslo" in capitals.values()
+True
+```
+
+Likewise, a similar command exists for extracting the keys from a Dictionary.
+
+```pycon
+>>> countries = capitals.keys()
+>>> countries
+dict_keys(['United Kingdom', 'Azerbaijan', 'Norway'])
+```
+
+#### Sets
+```pycon
+>>> my_set = {1, 2, 3}
+>>> 1 in my_set
+True
+>>> 100 in my_set
+False
+```
+
+#### Strings
+
+For strings, `in` lets us see if one string contains another.
+
+```pycon
+>>> college = "london college of communication"
+>>> "london" in college
+True
+>>> "utah" in college
+False
+```
+
+We would say that "london" is a _substring_ of "london college of communication".
 
 ## Summary
 ---
