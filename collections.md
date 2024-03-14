@@ -13,7 +13,7 @@ A _changebale_ collection is a collection that can be modified. This means eleme
 
 ## Lists
 
-Lists are an ordered and changeable collection data type. Here is an example of a basic list containing three strings:
+Lists are an _ordered_ and _changeable_ data type. Here is an example of a basic list containing three strings:
 
 ```pycon
 >>> my_list = ["string-1", "string-2", "string-3"]
@@ -411,6 +411,8 @@ For strings, `in` lets us see if one string contains another.
 ```pycon
 >>> college = "london college of communication"
 >>> "london" in college
+True
+>>> "llege of" in college
 True
 >>> "utah" in college
 False
