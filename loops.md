@@ -2,6 +2,7 @@
 
 ## For Loops
 ## While Loops
+## Comprehensions
 ## `break` and `continue`
 ## Summary
 ---
