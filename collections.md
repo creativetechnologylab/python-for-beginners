@@ -197,6 +197,17 @@ Now let's change that back to the right value, and add Egypt to the Dictionary.
 {'Azerbaijan': 'Baku', 'Norway': 'Oslo', 'Peru': 'Lima', 'Egypt': 'Cairo'}
 ```
 
+Trying to access data that does not exist in the Dictionary leads to a **KeyError**.
+
+```pycon
+>>> capitals
+{'Azerbaijan': 'Baku', 'Norway': 'Oslo', 'Peru': 'Lima', 'Egypt': 'Cairo'}
+>>> capitals["South Korea"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'South Korea'
+```
+
 Dictionary keys have to be unique. Attempting to have two bits of data with the same key will simply result in one value overwriting the other.
 
 ## Sets
