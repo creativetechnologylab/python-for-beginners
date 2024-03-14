@@ -48,7 +48,7 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-Because lists are _changeable_, we're allowed to add / remove elements from our list. The `append()` command allows us to add an item to the end of the list, while the `remove()` command allows us to take something away from a list. Note that `remove()` takes away the _first occurence_ of that item.
+Because lists are _changeable_, we're allowed to add / remove elements from our list. The `append()` command allows us to add an item to the end of the list, while the `remove()` command allows us to take something away from a list.
 
 ```pycon
 >>> my_list.append("string-4")
@@ -57,6 +57,19 @@ Because lists are _changeable_, we're allowed to add / remove elements from our 
 >>> my_list.remove("string-4")
 >>> print(my_list)
 ['string-1', 'string-2', 'string-3']
+```
+
+Note that `remove()` takes away only the _first occurence_ of an item.
+
+```pycon
+>>> my_list
+['string-1', 'string-2', 'string-3']
+>>> my_list.append("string-2") # adding the same item again
+>>> my_list
+['string-1', 'string-2', 'string-3', 'string-2']
+>>> my_list.remove("string-2")
+>>> my_list
+['string-1', 'string-3', 'string-2']
 ```
 
 The `insert()` command also allows adding an item to a list at a particular index.
