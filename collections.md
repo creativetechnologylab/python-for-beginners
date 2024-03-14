@@ -121,7 +121,7 @@ As lists are _changeable_, we may also take the data at a particular index in ou
 
 ## Tuples
 
-Tuples are an ordered and unchangeable data type. Tuples are created by using round brackets.
+Tuples are an _ordered_ and _unchangeable_ data type. Tuples are created by using round brackets.
 
 ```pycon
 >>> my_tuple = ("hello-1", "hello-2", "hello-3")
