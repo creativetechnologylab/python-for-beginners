@@ -472,5 +472,18 @@ False
 We would say that "london" and "llege of" are _substrings_ of "london college of communication".
 
 ## Summary
+
+- Collections in Python are like warehouses for our variable-boxes.
+- Lists are ordered, changeable sequences defined with `[ ]`.
+- Lists support indexing, slicing, appending, removing, and concatenating.
+- Tuples are ordered and unchangeable sequences defined with `( )`. Tuples also support indexing.
+- Dictionaries are ordered and  changeable key-value pairs defined with `{ }`.
+- Dictionary values are accessed by keys, and dictionaries support adding, removing, and updating items.
+- Sets are unordered, changeable collections with unique elements defined with `{ }`.
+- Sets prevent duplicates and support adding and removing.
+- Strings aren't strictly a Colletion but kind of act like one. They are an unchangeable sequences of characters, and support indexing and slicing.
+- Slicing allows selecting a range of elements.
+- `len()`: Returns the length of a collection.
+- `in`: Checks membership in a collection, including substring presence for strings.
 ---
 [Prev](basic-data-types.md) | [List of Contents](README.md) | [Next](loops.md)
