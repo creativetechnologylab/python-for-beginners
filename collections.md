@@ -224,6 +224,53 @@ KeyError: 'South Korea'
 Dictionary keys have to be unique. Attempting to have two bits of data with the same key will simply result in one value overwriting the other.
 
 ## Sets
+
+Sets are an _unordered_ and _changeable_ data type. They are a special type of Collection that prevent repeating elements. Sets are also defined using curly brackets.
+
+```pycon
+>>> my_set = {1, 2, 3}
+>>> my_set
+{1, 2, 3}
+```
+
+However, an empty pair of curly brackets makes Python create a Dictionary.
+
+```pycon
+>>> my_set
+{1, 2, 3}
+>>> type(my_set) # check the type of our set
+<class 'set'>
+>>> not_a_set = {} # this is not a set
+>>> type(not_a_set) # type tells us this is actually an empty dictionary
+<class 'dict'>
+```
+
+If we want to create an empty set we have to use the `set()` command instead.
+
+```pycon
+>>> actually_a_set = set() # create an empty set the proper way
+>>> type(actually_a_set) # type tells us this is a set
+<class 'set'>
+```
+
+We can try to add a repeating item to our Set and Python won't give an Error, but it will simply refuse to add that item.
+
+```pycon
+>>> my_set
+{1, 2, 3}
+>>> my_set.add(2)
+>>> my_set
+{1, 2, 3}
+```
+
+A similar thing applies to creating Sets.
+
+```pycon
+>>> my_set = {1, 2, 3, 3} # create a set with a duplicate 3
+>>> my_set
+{1, 2, 3}
+```
+
 ## Comprehensions
 ## Slicing
 ## Other Stuff
