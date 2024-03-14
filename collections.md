@@ -416,7 +416,7 @@ True
 False
 ```
 
-We would say that "london" is a _substring_ of "london college of communication".
+We would say that "london" and "llege of" are _substrings_ of "london college of communication".
 
 ## Summary
 ---
