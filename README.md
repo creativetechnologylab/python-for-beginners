@@ -38,6 +38,7 @@
 - [Dictionaries](collections.md#dictionaries)
 - [Sets](collections.md#sets)
 - [Comprehensions](collections.md#comprehensions)
+- [Other Stuff](collections.md#other-stuff)
 
 ### Loops
 
