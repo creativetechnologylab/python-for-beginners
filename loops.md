@@ -6,7 +6,7 @@ Loops can be used for iterating over a sequence, or for repeating a block of cod
 
 ## For Loops
 
-For loops allows us to repeat a block of code. This can be useful when we want to do something with every element in a Collection (Lists, Tuples, Dictionaries, Sets as well as Sequences such as Strings.
+Loops allows us to repeat a block of code. This can be useful when we want to do something with every element in a Collection (Lists, Tuples, Dictionaries, Sets) as well as Sequences such as Strings.
 
 Let's say we have a list of strings that contain a mix of uppercase and lowercase characters.
 
@@ -45,6 +45,22 @@ is
 fun
 ```
 
+Strings can also be looped through in this way:
+
+```python
+for char in "hello":
+    print(char)
+```
+
+Output:
+```
+h
+e
+l
+l
+o
+```
+
 ### Dictionaries
 
 In the case of Dictionaries, simply looping through them will give us their keys.
@@ -67,7 +83,7 @@ for country in capitals:
     print(country)
 ```
 
-This gives us the following output:
+Output:
 ```
 United States
 United Kingdom
