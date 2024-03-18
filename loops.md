@@ -194,7 +194,73 @@ Only our first print statement is "looped" because it's loop's code block.
 
 When we misuse indentation, we can get what is known as an `IndentationError`.
 
+Take the example of a for-loop that doesn't have an indented block.
 
+```python
+for i in range(3):
+print("Hello")
+```
+
+See what VS Code does when given this code:
+
+![](pictures/missing-indentation.PNG)
+
+We have a red squiggly line beneath our `print`. Placing our mouse over this also causes a message to appear. This lets us know that we are going to get an error from running this code.
+
+Output:
+```
+  File "<stdin>", line 2
+    print("Hello")
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+```
+
+We can see that an indented block was expected after the `for`, but that none was found. Now, let's do the opposite and add an indent that has no reason to be there.
+
+```python
+print("Hello")
+    print("Indented for no reason.")
+```
+
+Again, VS Code lets us know that something isn't right here.
+
+![](pictures/unexpected-indent.PNG)
+
+Output:
+```
+  File "<stdin>", line 1
+    print("Indented for no reason.")
+IndentationError: unexpected indent
+```
+
+Now we have another `IndentationError`, but this one is complaining about the opposite issue. An indent appeared for no reason.
+
+Fixing the code is pretty simple:
+
+```python
+for i in range(3):
+    print("Hello")
+```
+
+Output:
+```
+Hello
+Hello
+Hello
+```
+
+Now we can fix the other code as well:
+
+```python
+print("Hello")
+print("Indented for no reason.")
+```
+
+Output:
+```
+Hello
+Indented for no reason.
+```
 
 ## While Loops
 ## `break` and `continue`
