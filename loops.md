@@ -263,6 +263,27 @@ Indented for no reason.
 ```
 
 ## While Loops
+
+While loops allow us to repeat a block of code until a certain condition is met. In the example below, the while loop will continue so long as `i` is less than 6:
+
+```python
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
+
+Output:
+```
+1
+2
+3
+4
+5
+```
+
+While loops come in handy when you want to run code until a particular logical expression becomes True or False. An example could be looping code that asks for user input, and repeatedly asking for input until a valid response is given. In the [Control Flow and Conditional Statements](control-flow-and-conditional-statements.md) section you will learn a bit more about how to write code that involves conditional logic.
+
 ## `break` and `continue`
 ## Comprehensions
 ## Summary
