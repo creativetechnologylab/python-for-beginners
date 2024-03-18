@@ -284,8 +284,50 @@ Output:
 
 While loops come in handy when you want to run code until a particular logical expression becomes True or False. An example could be looping code that asks for user input, and repeatedly asking for input until a valid response is given. In the [Control Flow and Conditional Statements](control-flow-and-conditional-statements.md) section you will learn a bit more about how to write code that involves conditional logic.
 
-## `break` and `continue`
 ## Comprehensions
+
+Comprehensions are seen as a more "Pythonic" way of doing operations with Collections and Sequences.
+
+Typically, when we have a `for` in our code, we want a block of indented code to be on the following line. In the case of Comprehensions, however, not having an indented block is fine.
+
+```python
+squares = [x ** 2 for x in range(10)]
+print(squares)
+```
+
+Output:
+```
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+
+Now let's try the same without a Comprehension:
+
+```python
+squares = []
+
+for i in range(10):
+    squares.append(i ** 2)
+
+print(squares)
+```
+
+Here the `.append()` command is being used to add a new element to our list.
+
+Output:
+```
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+
+While the output is the name, using a standard for-loop requires more lines of code to accomplish the same task.
+
+Comprehensions are a more concise and "readable" (to some) alternative to loops.
+
 ## Summary
+- Loops are able to iterate over a Collection/Sequence or repeat a block of code.
+- For loops can be used to repeat some code a set number of times.
+- While loops can be used to repeat some code until a condition is met.
+- `range()` allows us to generate a sequence of numbers.
+- Indentation is a crucial part of Python code. It allows us to tell Python what we want to be inside or outside a loop.
+- Comprehensions are seen as the more concise and "Pythonic" way of performing operations involving Collections and Sequences.
 ---
 [Prev](collections.md) | [List of Contents](README.md) | [Next](control-flow-and-conditional-statements.md)
