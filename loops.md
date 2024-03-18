@@ -134,6 +134,68 @@ Canada: Ottawa
 
 ### `range()`
 
+`range()` is a command in Python that gives us a sequence of numbers. By default it will start at zero. We can use this with a for-loop to repeat a block of code a fixed number of times.
+
+```python
+for i in range(3):
+    print("Hello")
+```
+
+Output:
+```
+Hello
+Hello
+Hello
+```
+
+When we actually ask to see the `i` that is being obtained from `range()` at each _iteration_ in our loop, we can see how the `range()` command is performing its counting.
+
+```python
+for i in range(5):
+    print(i)
+```
+
+Output:
+
+```
+0
+1
+2
+3
+4
+```
+
+When we give range a single number as an input (or parameter), it starts at zero and counts up by one, stopping before it reaches our input value.
+
+### Indentation
+
+Indentation is an important part of our Python code. This is how Python recognises that a certain bit of code belongs to a "block."
+
+Consider the code below:
+```python
+for i in range(3):
+    print("Hello from inside the loop.")
+print("Hello from outside the loop.")
+```
+
+We have a for-loop that will repeat some code 2 times. Our second line with the `print` statement is indented, meaning that there are some spaces at the beginning of the line. Our third line of code containing the other print statement is not indented. It shares the same _level of indentation_ as our "loop header."
+
+This gives us the following output:
+```
+Hello from inside the loop.
+Hello from inside the loop.
+Hello from inside the loop.
+Hello from outside the loop.
+```
+
+Only our first print statement is "looped" because it's loop's code block.
+
+### IndentationError
+
+When we misuse indentation, we can get what is known as an `IndentationError`.
+
+
+
 ## While Loops
 ## `break` and `continue`
 ## Comprehensions
