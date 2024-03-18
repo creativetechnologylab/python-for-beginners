@@ -25,7 +25,7 @@ print(mixed_strings[4].lower())
 print(mixed_strings[5].lower())
 ```
 
-While this "solution" works, it is not maintainable and is far more fiddly. If I were to mistakently What we want to use instead is a for-loop.
+While this "solution" works, it is not maintainable and is far more fiddly. If I were to mistakenly What we want to use instead is a for-loop.
 
 ```python
 mixed_strings = ["Hello", "wOrlD", "PyThOn", "ProGRamming", "Is", "FuN"]
@@ -43,6 +43,77 @@ python
 programming
 is
 fun
+```
+
+### Dictionaries
+
+In the case of Dictionaries, simply looping through them will give us their keys.
+
+```python
+capitals = {
+    "United States": "Washington, D.C.",
+    "United Kingdom": "London",
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Japan": "Tokyo",
+    "China": "Beijing",
+    "India": "New Delhi",
+    "Brazil": "Brasília",
+    "Russia": "Moscow",
+    "Canada": "Ottawa"
+}
+
+for country in capitals:
+    print(country)
+```
+
+This gives us the following output:
+```
+United States
+United Kingdom
+France
+Germany
+Japan
+China
+India
+Brazil
+Russia
+Canada
+```
+
+If we want to see both a key and a value, we need to loop through the `items()` of the Dictionary.
+
+```python
+capitals = {
+    "United States": "Washington, D.C.",
+    "United Kingdom": "London",
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Japan": "Tokyo",
+    "China": "Beijing",
+    "India": "New Delhi",
+    "Brazil": "Brasília",
+    "Russia": "Moscow",
+    "Canada": "Ottawa"
+}
+
+for country, capital in capitals.items():
+    print(country + ": " + capital)
+```
+
+Now we obtain the following output:
+
+```
+United States: Washington, D.C.
+United Kingdom: London
+France: Paris
+Germany: Berlin
+Japan: Tokyo
+China: Beijing
+India: New Delhi
+Brazil: Brasília
+Russia: Moscow
+Canada: Ottawa
 ```
 
 ### `range()`
