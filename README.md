@@ -46,7 +46,6 @@
 
 - [For Loops](loops.md#for-loops)
 - [While Loops](loops.md#while-loops)
-- [`break` and `continue`](loops.md#break-and-continue)
 - [Comprehensions](loops.md#comprehensions)
 
 ### Control Flow and Conditional Statements
@@ -54,7 +53,7 @@
 - [`if`](control-flow.md#if)
 - [`if...else`](control-flow.md#if-else)
 - [`elif`](control-flow.md#elif)
-- [`break`](control-flow.md#break)
+- [`break` and `continue`](control-flow.md#break-and-continue)
 
 ### Functions
 
