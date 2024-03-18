@@ -9,7 +9,7 @@ If variables are boxes for holding data, then Python's _collection_ data types a
 
 When a collection is ordered this means that the data type will remember the order in which elements were added to it, and preserve this order. On the other hand, an unordered collection will not maintain the order in which elements are added to it.
 
-A _changebale_ collection is a collection that can be modified. This means elements can be added to or removed from it after it has been created. An _unchangeable_ collection is one that cannot be modified after its creation.
+A _changeable_ collection is a collection that can be modified. This means elements can be added to or removed from it after it has been created. An _unchangeable_ collection is one that cannot be modified after its creation.
 
 ## Lists
 
@@ -21,7 +21,7 @@ Lists are an _ordered_ and _changeable_ data type. Here is an example of a basic
 ['string-1', 'string-2', 'string-3']
 ```
 
-Lists are defined by writing square brackets. Any elements in the list would then be placed inside the brackets, and seperated by a comma. But elements are actually optional, and it's fine to create an empty list to start with.
+Lists are defined by writing square brackets. Any elements in the list would then be placed inside the brackets, and separated by a comma. But elements are actually optional, and it's fine to create an empty list to start with.
 
 ```pycon
 >>> my_empty_list = []
@@ -59,7 +59,7 @@ Because lists are _changeable_, we're allowed to add / remove elements from our 
 ['string-1', 'string-2', 'string-3']
 ```
 
-Note that `remove()` takes away only the _first occurence_ of an item.
+Note that `remove()` takes away only the _first occurrence_ of an item.
 
 ```pycon
 >>> my_list
@@ -162,7 +162,7 @@ Dictionaries are an _ordered_ (since Python 3.7) and _changeable_ data type. Dic
 An image would be nice here.
 -->
 
-To create a dictionary we use curly brackets. Then any key-value pairs are placed inside these curly brackets, and seperated my commas. A colon is used to define a key-value pair.
+To create a dictionary we use curly brackets. Then any key-value pairs are placed inside these curly brackets, and separated my commas. A colon is used to define a key-value pair.
 
 ```pycon
 >>> capitals = {"United Kingdom": "London", "Azerbaijan": "Baku", "Norway": "Oslo"}
@@ -481,7 +481,7 @@ We would say that "london" and "llege of" are _substrings_ of "london college of
 - Dictionary values are accessed by keys, and dictionaries support adding, removing, and updating items.
 - Sets are unordered, changeable collections with unique elements defined with `{ }`.
 - Sets prevent duplicates and support adding and removing.
-- Strings aren't strictly a Colletion but kind of act like one. They are an unchangeable sequences of characters, and support indexing and slicing.
+- Strings aren't strictly a Collection but kind of act like one. They are an unchangeable sequences of characters, and support indexing and slicing.
 - Slicing allows selecting a range of elements.
 - `len()`: Returns the length of a collection.
 - `in`: Checks membership in a collection, including substring presence for strings.
