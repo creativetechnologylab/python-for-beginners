@@ -282,7 +282,7 @@ Output:
 5
 ```
 
-While loops come in handy when you want to run code until a particular logical expression becomes True or False. An example could be looping code that asks for user input, and repeatedly asking for input until a valid response is given. In the [Control Flow and Conditional Statements](control-flow-and-conditional-statements.md) section you will learn a bit more about how to write code that involves conditional logic.
+While loops come in handy when you want to run code until a particular logical expression becomes True or False. An example could be looping code that asks for user input, and repeatedly asking for input until a valid response is given. In the [Control Flow and Conditional Statements](control-flow.md) section you will learn a bit more about how to write code that involves conditional logic.
 
 ## Comprehensions
 
@@ -330,4 +330,4 @@ Comprehensions are a more concise and "readable" (to some) alternative to loops.
 - Indentation is a crucial part of Python code. It allows us to tell Python what we want to be inside or outside a loop.
 - Comprehensions are seen as the more concise and "Pythonic" way of performing operations involving Collections and Sequences.
 ---
-[Prev](collections.md) | [List of Contents](README.md) | [Next](control-flow-and-conditional-statements.md)
+[Prev](collections.md) | [List of Contents](README.md) | [Next](control-flow.md)
