@@ -54,7 +54,7 @@
 - [`elif`](control-flow.md#elif)
 - [`break` and `continue`](control-flow.md#break-and-continue)
 
-### Functions
+<!-- ### Functions
 
 ### Libraries
 
@@ -64,7 +64,7 @@
 
 ### Debugging with VS Code
 
-### Writing and Running Python Tests
+### Writing and Running Python Tests -->
 
 ## Feedback
 
