@@ -46,7 +46,7 @@ It's also possible to change the information that's inside a box. This is known 
 ```python
 year = 2023
 print(year)
-my_age = 2024
+year = 2024
 print(year)
 ```
 
