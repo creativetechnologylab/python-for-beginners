@@ -30,7 +30,6 @@
 - [Integers and Floats](basic-data-types.md#integers-and-floats)
 - [Strings](basic-data-types.md#strings)
 - [Booleans](basic-data-types.md#booleans)
-<!-- Something about None? -->
 
 ### Collections
 
