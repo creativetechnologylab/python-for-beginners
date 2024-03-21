@@ -160,5 +160,19 @@ bird
 elephant
 ```
 ## Summary
+- **`if` Statements**
+  - Used to execute a block of code when a specific condition is met.
+  - Can handle mathematical expressions that evaluate to `True` or `False`.
+  - Code blocks within `if` statements must be indented.
+- **`if...else` Statements**
+  - Executes different code based on whether a condition is `True` or `False`.
+  - At least one block of code will be executed.
+- **`elif` Statements**
+  - Checks multiple conditions sequentially.
+  - If the first condition is `False`, subsequent conditions are evaluated using `elif`.
+- **`break` Statement**
+  - Terminates the loop immediately upon encountering it.
+- **`continue` Statement**
+  - Skips the current iteration of the loop and moves to the next iteration.
 ---
 [Prev](loops.md) | [List of Contents](README.md) | [Next](functions.md)
