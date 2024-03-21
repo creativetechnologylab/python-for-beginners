@@ -87,6 +87,33 @@ This will be run, because our if-condition is True.
 if-else statements allow us to account for both the True and False conditions for a boolean.
 
 ## `elif`
+
+The `elif` keyword allows us to check if multiple conditions are True. If our first condition is False, we can move to check if another set of conditions are True by using `elif`. Consider the example below:
+
+```python
+age = 25
+
+if age < 13:
+    print("You are a child")
+elif age < 20:
+    print("You are a teenager")
+elif age < 30:
+    print("You are in your twenties (Vicenarian)")
+elif age < 40:
+    print("You are in your thirties (Tricenarian)")
+elif age < 50:
+    print("You are in your forties")
+elif age < 60:
+    print("You are in your fifties")
+else:
+    print("You are a senior citizen")
+```
+
+Output:
+```
+You are in your twenties (Vicenarian)
+```
+
 ## `break` and `continue`
 
 `break` and `continue` are two words that allow us to alter the flow of loops.
