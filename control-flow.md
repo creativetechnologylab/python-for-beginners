@@ -141,7 +141,7 @@ Because the loop was "broken" upon reaching the element "pig", we only see the f
 
 ### `continue`
 
-The `continue` keyword allows us to "skip" a 
+The continue keyword allows us to "skip" a specific iteration of a loop and move on to the next iteration without executing the remaining code within that code block.
 
 ```python
 animals = ["dog", "cat", "bird", "pig", "elephant"]
@@ -152,7 +152,13 @@ for animal in animals:
     print(animal)
 
 ```
-
+Output:
+```
+dog
+cat
+bird
+elephant
+```
 ## Summary
 ---
 [Prev](loops.md) | [List of Contents](README.md) | [Next](functions.md)
