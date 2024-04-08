@@ -80,6 +80,25 @@ Output:
 Hello, Bob
 ```
 
+Now we can use different values to cause the function to behave differently each time its executed:
+
+```python
+greet("George and Jeanie")
+greet("Charlotte")
+greet("Renie")
+greet("Uncle Geoff")
+greet("Cousin Julie")
+```
+
+Output:
+```
+Hello, George and Jeanie
+Hello, Charlotte
+Hello, Renie
+Hello, Uncle Geoff
+Hello, Cousin Julie
+```
+
 ## `return`
 ## Built-in Functions
 ## Summary
