@@ -57,7 +57,6 @@
 ### Functions
 
 - [Function Definition](functions.md#function-definition)
-- [Parameters](functions.md#parameters)
 - [`return`](functions.md#return)
 - [Built-in Functions](functions.md#built-in-functions)
 

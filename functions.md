@@ -5,7 +5,21 @@ Functions are small, reusable chunks of code that allow us to repeat a specific 
 The "ingredients" given to a function are often called its _parameters_ or its _arguments_. Later, we will see that some functions do not actually take inputs or give back outputs, but that does not prevent them from being useful in certain situations.
 
 ## Function Definition
-## Parameters
+### Function Header
+
+The first component of our function is the function _header_. This is the first line of our function in which we give it its name and decide what inputs it will take. We can create a basic function that will simply print "Hello World" when executed.
+
+```python
+def greet():
+    print("Hello World")
+```
+
+In Python the `def` keyword is used to start the function definition. This is then followed by the function name, which is what we will need to use when we execute a function.
+
+Notice that the code within our function is in an indented block, as we saw previously with loops.
+
+### Calling a Function
+### Parameters
 ## `return`
 ## Built-in Functions
 ## Summary
