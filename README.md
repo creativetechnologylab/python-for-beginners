@@ -54,8 +54,14 @@
 - [`elif`](control-flow.md#elif)
 - [`break` and `continue`](control-flow.md#break-and-continue)
 
-<!-- ### Functions
+### Functions
 
+- [Function Definition](functions.md#function-definition)
+- [Parameters](functions.md#parameters)
+- [`return`](functions.md#return)
+- [Built-in Functions](functions.md#built-in-functions)
+
+<!-- 
 ### Libraries
 
 ### Object-Oriented Programming
