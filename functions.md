@@ -100,7 +100,57 @@ Hello, Cousin Julie
 ```
 
 ## `return`
+
+Let's now take the result of our function call and place it in a variable.
+
+```python
+result = greet("Amy")
+print(result)
+```
+
+Output:
+```
+Hello, Amy
+None
+```
+
+Our `result` variable contains the `None` value. In this state, the variable `result` is like a labelled box that doesn't contain anything. By default, functions in Python return `None` unless we instruct them to `return` something else. Now let's rewrite our function so that the greeting string is returned.
+
+
+```python
+def greet(name):
+    return "Hello, " + name
+
+result = greet("Amy")
+print(result)
+```
+
+Output:
+```
+Hello, Amy
+```
+
+The `return` keyword allows us to specify the value that the function should pass back to the caller. When the function encounters the `return` statement, it immediately exits, and the value specified by `return` is returned to the caller. 
+
 ## Built-in Functions
+
+We have already been using functions in this tutorial. Python provides a number of built-in functions for performing common tasks. These functions are readily available for use without requiring us to define them ourselves. Some of the built-in functions in Python include:
+
+- **`print()`:** Used to display output to the console.
+- **`len()`:** Returns the length (number of items) of an object such as a list, tuple, or string.
+- **`int()`, `float()`, `str()`:** Used for type conversion, converting values to integers, floats, or strings, respectively.
+- **`range()`:** Generates a sequence of numbers within a specified range.
+
+These built-in functions are designed to provide common functionality that is frequently needed in Python programming. By leveraging these functions, we can write code more efficiently and effectively.
+
 ## Summary
+
+- Functions are reusable code chunks with inputs (parameters), a body (instructions), and an output.
+- A function header specifies the function name and parameters using `def`.
+- A function is executed by using its name followed by parentheses.
+- A function can be reused multiple times.
+- Parameters allow us to give inputs to our functions that varying its behavior.
+- The `return` keyword defines what data is passed back to the caller.
+- Python provides pre-defined functions for common tasks. These are available without needing to define them.
 ---
 [Prev](control-flow.md) | [List of Contents](README.md) | [Next](libraries.md)
