@@ -60,8 +60,13 @@
 - [`return`](functions.md#return)
 - [Built-in Functions](functions.md#built-in-functions)
 
-<!-- 
 ### Libraries
+
+- [Installing Libraries](libraries.md#installing-libraries)
+- [Using Libraries](libraries.md#using-libraries)
+- [Finding Libraries](libraries.md#finding-libraries)
+
+<!-- 
 
 ### Object-Oriented Programming
 
