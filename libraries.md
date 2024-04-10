@@ -6,13 +6,32 @@ Libraries are akin to the programming equivalent of "expansion packs" in the gam
 
 To start with, let's create a dedicated environment for learning how to install and use libraries. This will allow us to experiment with libraries without affecting any other projects or system configurations.
 
-To do this, in either the Minifore prompt (Windows) or the terminal (Mac), create a new environment and name it `lib-test`. This can be done with either `conda` or `mamba`.
+To do this, in either the Miniforge prompt (Windows) or the terminal (Mac), create a new environment named `lib-test`. This can be done with either `conda` or `mamba`.
 
+Mamba:
+```
+mamba create --name lib-test
+```
 
+Conda:
+```
+conda create --name lib-test
+```
 
-Now that we have created an environment, we can try out installing a library to it.
+Once your environment has been created, you can then activate it. This is all shown below:
+
+![](./pictures/create-lib-test-env.gif)
+
+Now that we have created an environment, we can try out installing a library to it. Let's start by installing `numpy` to our `lib-test` library. NumPy is a powerful Python library used for numerical computing.
 
 ### `pip`
+
+Pip is a package manager for Python that allows you to easily install and manage third-party libraries and dependencies. To install a library with pip, first make sure that the environment you wish to install the library to is active (this will be indicated by the environment's name appearing in parentheses on the right hand side of the terminal prompt). Now installing a library is simply a matter of using the command `pip install lib-name`. Let's try this out with the `numpy` library.
+
+![](./pictures/install-numpy.gif)
+
+A quick way of checking if a library installed is running Python in the terminal and then importing the library that you have just installed. Sometimes if something went wrong we might see a `ModuleNotFoundError` which indicates that there was a problem in the installation. As we see no such error here, we know that `numpy` was imported successfully.
+
 ### Conda / Mamba
 ## Using Libraries
 
@@ -56,13 +75,7 @@ While the `cowsay` library has been installed, it currently resides in the `lib-
 
 ### `import as`
 
-Python also allows us to import libraries in a slightly different way using the `import as`. Let's start by installing `numpy` to our `lib-test` library. NumPy is a powerful Python library used for numerical computing.
-
-Now go to the Miniforge prompt (Windows) or the terminal (Mac) and make sure the `lib-test` environment has been activated. If it is, you should see the environment's name in brackets in the command prompt. Once that's done, install the NumPy library by using the command `pip install numpy`.
-
-![](./pictures/install-numpy.gif)
-
-A quick way of checking if a library installed can be running Python in the terminal and then importing the library that you have just installed. Sometimes if something went wrong we might see a `ModuleNotFoundError` which indicates that there was a problem in the installation. As we see no such error here, we know that `numpy` was imported successfully.
+Python also allows us to import libraries in a slightly different way using the `import as`. 
 
 A common convention when using libraries such as `numpy` is to employ shorthand aliases. Many users opt to utilize `numpy` commands by importing the library with the shorthand alias `np`. In Python, we may give libraries a "nickname" by using the `import as` command. Look at the examples below, where we get the value of Pi that NumPy has stored:
 
@@ -93,6 +106,9 @@ Sometimes you only want to use one or more specific items from a library. In Pyt
 By using `from`, we can avoid importing the entire library/module, which can save memory and reduce potential [namespace conflicts](https://www.analyticsvidhya.com/blog/2024/01/understanding-namespaces-in-python/#h-namespace-collision-and-resolution).
 
 ## Finding Libraries
+
+### Google
+### GitHub
 ## Summary
 ---
 [Prev](functions.md) | [List of Contents](README.md) | [Next](oop.md)
