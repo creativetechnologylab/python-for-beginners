@@ -10,13 +10,15 @@ To do this, in either the Miniforge prompt (Windows) or the terminal (Mac), crea
 
 Mamba:
 ```
-mamba create --name lib-test
+mamba create --name lib-test python=3.11
 ```
 
 Conda:
 ```
-conda create --name lib-test
+conda create --name lib-test python=3.11
 ```
+
+You will then be aksed to confirm that you wish to install some additional packages. Type "Y" and hit Enter.
 
 Once your environment has been created, you can then activate it. This is all shown below:
 
@@ -33,6 +35,11 @@ Pip is a package manager for Python that allows you to easily install and manage
 A quick way of checking if a library installed is running Python in the terminal and then importing the library that you have just installed. Sometimes if something went wrong we might see a `ModuleNotFoundError` which indicates that there was a problem in the installation. As we see no such error here, we know that `numpy` was imported successfully.
 
 ### Conda / Mamba
+
+In some cases, Python libraries can also be installed through Conda/Mamba as well as pip. In such scenarios, you will find guidance on which tool to use for installation in the library's documentation or on their official website.
+
+![](./pictures/mamba-install-numpy.gif)
+
 ## Using Libraries
 
 Simply installing a library doesn't immediately make it usable in our code. This is because the installed library needs to be explicitly imported into our Python code before we can access its functionalities.
