@@ -118,7 +118,7 @@ By using `from`, we can avoid importing the entire library/module, which can sav
 
 ### Online Search
 
-A lot of the time, simply Googling "python + thing you want to do" can lead you to various online resources, forums, and discussions where people share recommendations and insights about Python libraries that can help you accomplish your specific task or solve your problem.
+A lot of the time, simply Googling "python + [thing you want to do]" can lead you to various online resources, forums, and discussions where people share recommendations and insights about Python libraries that can help you accomplish your specific task or solve your problem.
 
 ### GitHub
 
@@ -139,7 +139,24 @@ Now from looking at the results, I can see there is a Python library called [iso
 
 You may also decide to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) another person's code, which allows you to create a copy of their repository under your own GitHub account. Forking gives you the freedom to modify the code to suit your requirements, contribute improvements or fixes, or simply learn from the codebase.
 
-#### Tag Search
+#### Topic Search
+
+GitHub also allows you to look for repositories by topic. This can help you discover curated collections of repositories related to specific themes or domains, making it easier to find Python libraries and projects relevant to your interests or needs.
+
+Using this feature, we can find repositories with the topic "machine-learning": https://github.com/topics/machine-learning
+
+Now if we filter by language, we can find Python code with the machine-learning topic:
+
+![](pictures/machine-learning-topic.png)
+
+
+#### Feed
+
+Another way to discover interesting code is to look at your GitHub Feed. This is a personalized stream of updates from repositories, organisations, and users that you follow on GitHub. To customize your feed, try following topics, organizations, and users across GitHub that align with your interests or experience. This way, you'll receive updates and notifications about new projects, releases, and contributions that match your preferences.
+
+By taking a quick look at my own feed, I can see that Stable Diffusion was recently updated. This lets me know that there have been changes or improvements made to the project, and it may be worth checking out the latest version to see what's new or to incorporate any updates into my own work.
+
+![](pictures/stable-diffusion-feed.png)
 
 ## Summary
 ---
