@@ -18,7 +18,7 @@ Conda:
 conda create --name lib-test python=3.11
 ```
 
-You will then be aksed to confirm that you wish to install some additional packages. Type "Y" and hit Enter.
+You will then be asked to confirm that you wish to install some additional packages. Type "Y" and hit Enter.
 
 Once your environment has been created, you can then activate it. This is all shown below:
 
@@ -45,6 +45,8 @@ In some cases, Python libraries can also be installed through Conda/Mamba as wel
 Simply installing a library doesn't immediately make it usable in our code. This is because the installed library needs to be explicitly imported into our Python code before we can access its functionalities.
 
 ### `import`
+
+<!-- TODO: Create file and show installation of library. -->
 
 When we wish to use libraries that we've installed, we employ the `import` statement. Let's take the example of the `cowsay` library that was installed earlier:
 
@@ -114,8 +116,31 @@ By using `from`, we can avoid importing the entire library/module, which can sav
 
 ## Finding Libraries
 
-### Google
+### Online Search
+
+A lot of the time, simply Googling "python + thing you want to do" can lead you to various online resources, forums, and discussions where people share recommendations and insights about Python libraries that can help you accomplish your specific task or solve your problem.
+
 ### GitHub
+
+GitHub also has options to search for code by language or by tag. While this is not guaranteed to bring up libraries only, this method of searching can help you discover open-source projects, including Python libraries, that tackle the same problems that you are attempting to solve or that provide functionalities you are looking for.
+
+#### Language Search
+
+Let's take the example of searching GitHub for code that contains the word "sonification" in either the repo name or the repository description: https://github.com/search?q=sonification+language%3APython&type=repositories
+
+In the left hand side, it is possible to select a language for filtering your search results. In this example, I have chosen Python (but you could do this with any other language that GitHub is familiar with).
+
+![](pictures/github-code-search.png)
+
+Another way of searching by language is to add `language:Python` to your search. 
+
+Now from looking at the results, I can see there is a Python library called [isobar](https://github.com/ideoforms/isobar) that deals with sonification and music. The other results may also be a good starting point or provide some inspiration of how to go about a project.
+
+
+You may also decide to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) another person's code, which allows you to create a copy of their repository under your own GitHub account. Forking gives you the freedom to modify the code to suit your requirements, contribute improvements or fixes, or simply learn from the codebase.
+
+#### Tag Search
+
 ## Summary
 ---
 [Prev](functions.md) | [List of Contents](README.md) | [Next](oop.md)
