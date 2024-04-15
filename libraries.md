@@ -152,7 +152,7 @@ Now if we filter by language, we can find Python code with the machine-learning 
 
 #### Feed
 
-Another way to discover interesting code is to look at your GitHub Feed. This is a personalized stream of updates from repositories, organisations, and users that you follow on GitHub. To customize your feed, try following topics, organizations, and users across GitHub that align with your interests or experience. This way, you'll receive updates and notifications about new projects, releases, and contributions that match your preferences.
+Another way to discover interesting code is to look at your GitHub Feed. This is a personalized stream of updates from repositories, organisations, and users that you follow on GitHub. To customize your feed, try following topics, organisations, and users across GitHub that align with your interests or experience. This way, you'll receive updates and notifications about new projects, releases, and contributions that match your preferences.
 
 By taking a quick look at my own feed, I can see that Stable Diffusion was recently updated. This lets me know that there have been changes or improvements made to the project, and it may be worth checking out the latest version to see what's new or to incorporate any updates into my own work.
 
