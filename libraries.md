@@ -52,7 +52,7 @@ When we wish to use libraries that we've installed, we employ the `import` state
 
 ```python
 import cowsay
-cowsay.say("Hello!")
+cowsay.cow("Hello!")
 ```
 
 Output:
