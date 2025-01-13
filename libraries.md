@@ -69,7 +69,7 @@ Output:
              ||     ||
 ```
 
-Now in VS try to run the Python code with the `base` Python rather than our `lib-test` environment. This can be done by going to Ctrl/Command + Shift + P and choosing "Select Interpreter." 
+Now in VS try to run the Python code with the `base` Python rather than our `lib-test` environment. This can be done by going to Ctrl/Command + Shift + P and choosing "Select Interpreter."
 
 Now let's try to run the code again:
 
@@ -84,7 +84,7 @@ While the `cowsay` library has been installed, it currently resides in the `lib-
 
 ### `import as`
 
-Python also allows us to import libraries in a slightly different way using the `import as`. 
+Python also allows us to import libraries in a slightly different way using the `import as`.
 
 A common convention when using libraries such as `numpy` is to employ shorthand aliases. Many users opt to utilize `numpy` commands by importing the library with the shorthand alias `np`. In Python, we may give libraries a "nickname" by using the `import as` command. Look at the examples below, where we get the value of Pi that NumPy has stored:
 
@@ -132,7 +132,7 @@ In the left hand side, it is possible to select a language for filtering your se
 
 ![](pictures/github-code-search.png)
 
-Another way of searching by language is to add `language:Python` to your search. 
+Another way of searching by language is to add `language:Python` to your search.
 
 Now from looking at the results, I can see there is a Python library called [isobar](https://github.com/ideoforms/isobar) that deals with sonification and music. The other results may also be a good starting point or provide some inspiration of how to go about a project.
 

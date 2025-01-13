@@ -137,7 +137,7 @@ cat
 bird
 ```
 
-Because the loop was "broken" upon reaching the element "pig", we only see the first three items printed. 
+Because the loop was "broken" upon reaching the element "pig", we only see the first three items printed.
 
 ### `continue`
 

@@ -130,7 +130,7 @@ Output:
 Hello, Amy
 ```
 
-The `return` keyword allows us to specify the value that the function should pass back to the caller. When the function encounters the `return` statement, it immediately exits, and the value specified by `return` is returned to the caller. 
+The `return` keyword allows us to specify the value that the function should pass back to the caller. When the function encounters the `return` statement, it immediately exits, and the value specified by `return` is returned to the caller.
 
 ## Built-in Functions
 

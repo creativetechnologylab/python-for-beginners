@@ -120,11 +120,11 @@ And here are the full steps in a gif.
 
 ## Basic Conda / Mamba Usage
 
-When creating a new Python project, it is a good idea to create a separate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating separate Python environments helps keep things tidy.  
+When creating a new Python project, it is a good idea to create a separate environment for it. An environment is like a specialised Python installation that has all the libraries needed for a particular project. As you work with Python more, you will find that different projects require different libraries. Creating separate Python environments helps keep things tidy.
 
 ### Creating an Environment
 
-To create an environment, we give the following command:  
+To create an environment, we give the following command:
 
 Conda:
 ```
@@ -150,7 +150,7 @@ mamba create -n <env-name> python=X.X
 
 ### Activating / Deactivating Environments
 
-To activate an environment we then use the following command:  
+To activate an environment we then use the following command:
 
 Conda:
 ```
@@ -162,7 +162,7 @@ mamba activate <env-name>
 ```
 When an environment has been activated, using the `python` command will cause that particular environment's version of `python` to be used rather than that of the base environment.
 
-Using the `deactivate` command then allows you to return to the base environment:  
+Using the `deactivate` command then allows you to return to the base environment:
 
 Conda:
 ```
@@ -201,7 +201,7 @@ Python can be run in the terminal. This can be useful if you want to do somethin
 
 ### Script
 
-We can also use Python scripts. These are files that end in the `.py` extension. Below is an example of a basic Python script being executed. 
+We can also use Python scripts. These are files that end in the `.py` extension. Below is an example of a basic Python script being executed.
 
 ![](./pictures/python-script.gif)
 
